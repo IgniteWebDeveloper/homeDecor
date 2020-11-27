@@ -15,12 +15,13 @@ html,body{
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: rgb(59, 100, 83);
+    
 }
 
 #left{
     width: 65%;
     height: 100%;
+    background-color: rgb(59, 100, 83);
 }
 
 #right{
@@ -129,6 +130,10 @@ nav a{
 
 #lbtms #arrows{
     margin-top: 30px;
+}
+
+#arrows i{
+    cursor: pointer;
 }
 
 #slider{
